@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treat uhh</title>
+    <link rel="stylesheet" href="./Page1.css">
+</head>
+<body>
+    <div class="container">
+        <div class="tenor-gif-embed" data-postid="15195822" data-share-method="host" data-aspect-ratio="1" data-width="100%">
+            <a href="https://tenor.com/view/couple-forgive-me-asking-for-forgiveness-begging-crying-gif-15195822">Couple Forgive Me GIF</a> from <a href="https://tenor.com/search/couple-gifs">Couple GIFs</a>
+        </div>
+        <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+
+        <h1>Dei Oreo Nalarukum da; i guarentee!😐😶‍🌫️</h1>
+        <p>bucket list la lam potu vasten da, olapiraatha!</p>
+
+        <div class="btn">
+            <a href="#" id="move-random">OK</a> <!-- ID added here to make it move -->
+            <a href="#">Venam, Aala vudu!</a>
+        </div>
+    </div>
+
+    <script>
+        // Function to move the element randomly
+        function moveRandomEl(elm) {
+            elm.style.position = "absolute";
+            elm.style.top = Math.floor(Math.random() * 90 + 5) + "%"; // Position from top
+            elm.style.left = Math.floor(Math.random() * 90 + 5) + "%"; // Position from left
+        }
+
+        // Wait for DOM content to be loaded before adding event listener
+        document.addEventListener("DOMContentLoaded", function() {
+            const moveRandom = document.querySelector("#move-random");
+
+            if (moveRandom) {
+                moveRandom.addEventListener("mouseenter", function(e) {
+                    e.preventDefault(); // Prevent the default anchor behavior (page scroll)
+                    console.log("Mouse entered!"); // Debug log
+                    moveRandomEl(e.target); // Move the element when mouse enters
+                });
+            } else {
+                console.log("Element not found: #move-random");
+            }
+        });
+    </script>
+</body>
+</html>

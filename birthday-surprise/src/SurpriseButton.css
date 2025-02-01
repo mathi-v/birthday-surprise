@@ -1,0 +1,53 @@
+.surprise-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .surprise-btn {
+    padding: 12px 24px;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    background-color: #ff4081;
+    color: white;
+    border-radius: 8px;
+    transition: 0.3s;
+    font-weight: bold;
+  }
+  
+  .surprise-btn:hover {
+    background-color: #e91e63;
+  }
+  
+  .surprise-links {
+    margin-top: 15px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    display: inline-block;
+  }
+  
+  .surprise-links p {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .surprise-links ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .surprise-links li {
+    margin: 5px 0;
+  }
+  
+  .surprise-links a {
+    color: #ff4081;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .surprise-links a:hover {
+    text-decoration: underline;
+  }
+  

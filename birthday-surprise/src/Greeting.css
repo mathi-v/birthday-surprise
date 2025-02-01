@@ -1,0 +1,34 @@
+/* Style for the entire greeting section */
+.greeting {
+    text-align: center;
+    margin-top: 1px;
+    padding: 20px;
+    background-color: #f0f8ff; /* Light blue background */
+    border-radius: 15px;
+}
+
+/* Style for the main greeting text */
+.greeting-text {
+    font-size: 3rem;
+    color: #d834bd; /* Bright pink color */
+    font-family: 'Georgia', sans-serif;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: center; /* Ensure text is centered */
+    z-index: 1; /* Bring the text above the background overlay */
+    position: relative; /* Ensure transform is applied relative to its position */
+    transform: translateY(-50px); /* Move the text 50px up */
+}
+
+/* Style for the subtext (e.g., "Wishing you a day filled with joy") */
+.subtext {
+    font-size: 2.5rem;
+    color: #090909; /* Dark gray for the subtext */
+    font-family: 'Arial', sans-serif;
+    font-weight: 300;
+    
+    margin-top: 40px;
+    opacity: 1; /* Slightly faded to create contrast */
+}
+
+
